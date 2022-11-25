@@ -1,1 +1,8 @@
 
+This is the link to my BC Liquor Store Data app: https://stat545b-erinhare-assignmentb3.shinyapps.io/bcliquor/
+
+The BC Liquor Store Data used in this app can be found here: https://github.com/daattali/shiny-server/tree/master/bcl
+
+This app builds on the STAT 545B demonstration since now the user can select one or more countries using the select box in the side bar to filter the data by which will modify the histogram and table. The DT package has been used to make the table interactive. The user can search using the top right search bar and see a select number of products per page. The text above the histogram was added to show the number of results based on the selections the user made in the side bar.
+
+This repository contains an **app.R** file which contains the code that was used to create this app and the **Stat 545 Shiny App Demo.Rproj** file which can both be opened using R. R version 4.2.1 (2022-06-23) and RStudio 2022.07.1 were used.
